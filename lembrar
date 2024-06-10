@@ -1,0 +1,37 @@
+const perguntas = [
+    {
+        enunciado: "Vocẽ acorda com vontade de gritar?",
+        alternativas: [
+            "Nunca notei, mas meus pais reclamam",
+            "Eu pelo menos admito"
+        ]
+    },
+    {
+        enunciado: "Poucas ideais, qualquer coisa você dá uma bicada?",
+        alternativas: [
+            "Obvio que não",
+            "Essa é a única opção!",
+        ]
+    },
+    {
+        enunciado: "Queria poder voar e largar tudo?",
+        alternativas: [
+            "Com certeza!",
+            "Não deixe meus pais descobrirem!"
+        ]
+    },
+    {
+        enunciado: "Se questiona todos os dias porque o principal meio de transporte no Brasil é o rodoviário se nosso país tem proporções continentais ",
+        alternativas: [
+            "Deixa baixo, deixa baixo",
+            "VOCẼ É DO GOVERNO, NÉ?"
+        ]
+    },
+    {
+        enunciado: "As pessoas costumam te chamar de galinha?",
+        alternativas: [
+           "Já me ocorreu",
+            "Não, eu sou um galo carijó, mais respeito"
+        ]
+    },
+];
