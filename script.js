@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Vocẽ acorda com vontade de gritar?",
+        enunciado: "Você acorda com vontade de gritar?",
         alternativas: [
             {
                 texto: "Nunca notei, mas meus pais reclamam",

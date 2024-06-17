@@ -1,9 +1,9 @@
 :root {
-    --cor-fundo: #01080E;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333;
-    --cor-destaque: #c12bfd;
-    --cor-texto: #fcd7ff;
+    --cor-fundo: #ce8453;
+    --cor-principal: #ecd4b9 ;
+    --cor-secundaria: #9597a5;
+    --cor-destaque: #ce8453;
+    --cor-texto: #ce8453 ;
   }
   
   body {
@@ -17,21 +17,30 @@
   
   .caixa-principal{
     background-color: var(--cor-principal);
-    width: 90%;
+    width: 100%;
     text-align: center;
-    padding: 20px;
+    padding:200px;
   }
   
-  h1{
+  h{
     color: var(--cor-destaque);
    }
    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
-:root {
-    --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+   .botao{
+    background-color: #2196F3;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+.botao:hover{
+    background-color: #4CAF50;
 }
