@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Nunca notei, mas meus pais reclamam",
-                afirmacao: "afirmação"
+                afirmacao: "você pode nunca ter notado,"
             },
             {
                 texto: "Eu pelo menos admito",
-                afirmacao: "afirmação"
+                afirmacao: "você sempre soube,"
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Obvio que não",
-                afirmacao: "afirmação"
+                afirmacao: "mas você já tinha atitudes suspeitas,"
             },
             {
                 texto: "Essa é a única opção!",
-                afirmacao: "afirmação"
+                afirmacao: "sempre agiu como um,"
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Com certeza!",
-                afirmacao: "afirmação"
+                afirmacao: "tem sonhos específicos,"
             },
             {
                 texto: "Não deixe meus pais descobrirem!",
-                afirmacao: "afirmação"
+                afirmacao: "teve os mesmos sonhos,"
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Deixa baixo, deixa baixo",
-                afirmacao: "afirmação"
+                afirmacao: "dúvidas de qualquer galinha,"
             },
             {
                 texto: "VOCẼ É DO GOVERNO, NÉ",
-                afirmacao: "afirmação"
+                afirmacao: "pensamentos tão inteligentes, referentes ao cérebro de galinha,"
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Já me ocorreu",
-                afirmacao: "afirmação"
+                afirmacao: "só voce não tinha percebido, você é um galo carijó."
             },
             {
                 texto: "Não, eu sou um galo carijó, mais respeito",
-                afirmacao: "S2"
+                afirmacao: "você é um exímio galo carijó, parabéns"
             }
         ]
     },
@@ -98,8 +98,8 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const S2 = opcaoSelecionada.S2;
-    historiaFinal += S2 + "S2";
+    const afirmacoes = opcaoSelecionada.afirmacao;
+    historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
 }
