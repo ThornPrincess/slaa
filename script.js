@@ -62,7 +62,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Já me ocorreu",
-                afirmacao: "só voce não tinha percebido, você é um galo carijó."
+                afirmacao: "só você não tinha percebido, você é um galo carijó."
             },
             {
                 texto: "Não, eu sou um galo carijó, mais respeito",
